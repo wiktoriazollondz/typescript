@@ -6,3 +6,8 @@ const palindrome = (slowo: string): boolean => {
     }
     return true;
 }
+
+const isPalindrome = (word: string): boolean => {
+    const reverse = word.split("").reverse().join("");
+    return reverse === word
+}
